@@ -1,0 +1,24 @@
+test_analyze_filters_boundaries_and_top (test_analyzer.AnalyzerTests.test_analyze_filters_boundaries_and_top) ... ok
+test_date_bounds_dd_mm_yy (test_analyzer.AnalyzerTests.test_date_bounds_dd_mm_yy) ... ok
+test_empty_file (test_analyzer.AnalyzerTests.test_empty_file) ... ok
+test_filter_and_aggregation_helpers (test_analyzer.AnalyzerTests.test_filter_and_aggregation_helpers) ... ok
+test_invalid_bounds (test_analyzer.AnalyzerTests.test_invalid_bounds) ... ok
+test_large_file (test_analyzer.AnalyzerTests.test_large_file) ... ok
+test_main_success_and_error (test_analyzer.AnalyzerTests.test_main_success_and_error) ... usage: python -m unittest [-h] --input INPUT [--from FROM_TIME] [--to TO_TIME]
+                          [--level {DEBUG,ERROR,INFO,TRACE,WARN}]
+                          [--source SOURCE] [--top TOP] [--format {json,csv}]
+                          [--output OUTPUT]
+python -m unittest: error: --top не может быть отрицательным
+Ошибка: файл не найден: /tmp/tmpkk1ydgrq/log/missing
+ok
+test_missing_file (test_analyzer.AnalyzerTests.test_missing_file) ... ok
+test_only_corrupted_rows (test_analyzer.AnalyzerTests.test_only_corrupted_rows) ... ok
+test_parse_bad_date_level_and_timezone (test_analyzer.AnalyzerTests.test_parse_bad_date_level_and_timezone) ... ok
+test_parse_bad_fields_and_empty (test_analyzer.AnalyzerTests.test_parse_bad_fields_and_empty) ... ok
+test_parse_valid (test_analyzer.AnalyzerTests.test_parse_valid) ... ok
+test_write_json_and_csv (test_analyzer.AnalyzerTests.test_write_json_and_csv) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.019s
+
+OK

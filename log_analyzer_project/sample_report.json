@@ -1,0 +1,80 @@
+{
+  "input": "logs_events_sample.log",
+  "total_lines": 1209,
+  "valid_lines": 1200,
+  "invalid_lines": 9,
+  "matched_events": 1200,
+  "levels": {
+    "DEBUG": 139,
+    "ERROR": 475,
+    "INFO": 437,
+    "WARN": 149
+  },
+  "sources": {
+    "auth-api": 251,
+    "gateway": 112,
+    "inventory-api": 317,
+    "orders-api": 286,
+    "payment-worker": 234
+  },
+  "top_error_codes": [
+    {
+      "code": "PAYMENT_TIMEOUT",
+      "count": 97
+    },
+    {
+      "code": "ORDER_REJECTED",
+      "count": 88
+    },
+    {
+      "code": "HTTP_502",
+      "count": 86
+    },
+    {
+      "code": "PAYMENT_DECLINED",
+      "count": 83
+    },
+    {
+      "code": "STOCK_LOW",
+      "count": 24
+    }
+  ],
+  "invalid_rows": [
+    {
+      "line": 36,
+      "error": "неверная дата"
+    },
+    {
+      "line": 161,
+      "error": "неверный уровень: NOTICE"
+    },
+    {
+      "line": 281,
+      "error": "ожидалось 5 непустых полей, разделённых символом |"
+    },
+    {
+      "line": 411,
+      "error": "дата должна быть в UTC (ISO 8601 с Z или +00:00)"
+    },
+    {
+      "line": 551,
+      "error": "ожидалось 5 непустых полей, разделённых символом |"
+    },
+    {
+      "line": 691,
+      "error": "ожидалось 5 непустых полей, разделённых символом |"
+    },
+    {
+      "line": 831,
+      "error": "ожидалось 5 непустых полей, разделённых символом |"
+    },
+    {
+      "line": 971,
+      "error": "ожидалось 5 непустых полей, разделённых символом |"
+    },
+    {
+      "line": 1111,
+      "error": "ожидалось 5 непустых полей, разделённых символом |"
+    }
+  ]
+}
